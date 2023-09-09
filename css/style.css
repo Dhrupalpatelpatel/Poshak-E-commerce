@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    
+    background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1550&q=80");
+    background-repeat: no-repeat;
+}
+
+.container{
+    color: black;
+    font-weight: bold;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    height: 40vh;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+nav ul{
+    margin: 0px 0px 250px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+  padding: 0 23px;
+    
+   }
+   nav ul li  :hover{
+    color: rgb(129, 11, 11);
+    font-weight: bold;
+   }
+   
+   nav ul li a{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+   } 
+   nav ul li a :hover{
+    color: rgb(150, 29, 29);
+    font-weight: bold;
+   }
+   /* .law input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   } */
+   .law{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+   }
+   .law ul li :hover{
+    color: rgb(150, 29, 29);
+   }
+   
+   .law ul li a{
+   
+    font-size: 35px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 27vh;
+ 
+   }
+   .law ul li a :hover{
+    color: black;
+   }
+   .h2{
+    font-family: Playfair Display,serif;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-transform: none;
+    font-style: italic;
+    margin: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+   }
+  
+ main{
+    height: 96vh;
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    background-color:white;
+   column-gap: 45px;
+    grid-template-columns: 311px 311px 311px 311px;
+    grid-template-rows: 248px 248px 248px 248px;
+    grid-template-columns: 311px 311px 311px 311px;
+ }
+
+ .it{
+    margin: 9px;
+    background-color: white;
+    border: 2px solid black;
+ }
+ 
+ .it1 {
+    background-image: url("https://cdn.shopify.com/s/files/1/0458/5429/4174/files/SPP_3900_1_180x200@2x.jpg?v=1604377121");
+    color: white;
+    display: flex;
+   
+    justify-content: baseline;
+    font-family: 'Nunito Sans', sans-serif;
+
+ }
+ .it1 ul li a{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+ }
+ .it1 ul li :hover{
+    color: black;
+ }
+ 
+
+ .it2 {
+    color: white;
+    background-image: url("https://cdn.shopify.com/s/files/1/0458/5429/4174/files/4_0ac63a30-5cbd-488f-a5c4-80548327862a_250x.jpg?v=1642055088");
+    background-color: white;
+    /* border: 2px solid black; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+.it2 ul li a{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+ }
+ .it2 ul li :hover{
+    color: black;
+ }
+.it3{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url("https://cdn.shopify.com/s/files/1/0458/5429/4174/files/1_5c02e0a6-5d98-4f4d-a196-50731c99ee22_311x.jpg?v=1642055088");
+    background-repeat: no-repeat;
+    background-color: white;
+    /* border: 2px solid black; */
+}
+.it3 ul li a{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+ }
+ .it3 ul li :hover{
+    color: black;
+ }
+.it4 {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    background-image: url("https://cdn.shopify.com/s/files/1/0458/5429/4174/files/brides-1_67b480d7-f943-4e27-8dd2-29331381c54b_250x.jpg?v=1642055088");
+    background-color: white;
+    /* border: 2px solid black; */
+}
+.it4 ul li a{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+ }
+ .it4 ul li :hover{
+    color: black;
+ }
+
+ .it5{
+    background-image: url("https://cdn.shopify.com/s/files/1/0458/5429/4174/files/saree-2_46747ef3-c491-44ce-8510-560f96c86a7d_370x230@2x.jpg?v=1603771194");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 182vh;
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 60vh;
+    padding: 11px -9px 7px 7px;
+    margin: 14px 9px 0px;
+    
+ }
+ .it5 .more{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: Playfair Display,serif;
+    position: center;
+
+ }
+ 
+ .btn{
+    height: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 610px;
+    padding: 0 12px;
+    color: black;
+    font-family: Playfair Display,serif;
+    position: center;
+    text-decoration: none;
+    list-style: none;
+    font-style: none;
+    border-radius: 5px;
+ }
+ .btn :hover{
+    font-weight: bold;
+    color: red;
+ }
+  
+
+footer {
+    background-color: #dbcac0;
+   
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.innercontain {
+    display: grid;
+    /* height: 359px; */
+    background-color: #dbcac0;
+    
+    grid-template-columns: 300px 264px 264px 264px 264px;
+    grid-template-rows: 359px;
+    font-family: Nunito Sans, sans-serif;
+}
+
+.text {
+    display: flex;
+}
+
+.text input {
+    width: 499px;
+    height: 34px;
+    margin : 8px -661px 23px 0px;
+    border-radius: 3px;
+    padding: 0 16px;
+}
+
+.btnn button {
+
+    height: 34px;
+    width: 17vh;
+    margin: 84px 59px 20px 126px;
+
+}
+
+ul {
+    text-decoration: none;
+    text-align: start;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul li  :hover{
+    color: black;
+    font-weight: bold;
+}
+
+footer .outcontain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
